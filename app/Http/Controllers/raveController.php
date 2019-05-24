@@ -37,7 +37,7 @@ class raveController extends Controller
         Rave::initialize(route('callback'));
     }
 
-    public function callback() {
+    public function callback(Request $data) {
         $data = Rave::verifyTransaction(request()->txref);
 
         $chargeResponsecode = $data->data->chargecode;
@@ -45,8 +45,14 @@ class raveController extends Controller
         $chargeCurrency = $data->data->currency;
         $customerEmail = $data->data->email;
 
-        if (($chargeResponsecode == "00" || $chargeResponsecode == "0")) {
-       
+        // split parameters
+        $merchantID = 'RS_357C990D07DA12A79702798AD2C2FB1F';
+        $transaction_charge_type = 'percentage';
+        $transaction_charge = 0.5;    
+
+        if ($chargeResponsecode == "00" || $chargeResponsecode == "0") {
+            
+            
             return redirect('/status')->with('status', 'Payment Successful'. $data);
     
         } else {
