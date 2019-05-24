@@ -53,7 +53,7 @@ class raveController extends Controller
         if ($chargeResponsecode == "00" || $chargeResponsecode == "0") {
             
             
-            return redirect('/status')->with('status', 'Payment Successful'. $data);
+            return redirect('/status')->with('status', 'Payment Successful');
     
         } else {
             //Dont Give Value and return to Failure page
