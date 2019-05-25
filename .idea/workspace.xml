@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75db199d-07a7-4b6b-8425-d4a8be9fe0fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Service/Log/StoreLog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/split.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/split.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/split.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="200" column="43" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="43" />
+            <state relative-caret-position="-40">
+              <caret line="208" column="38" lean-forward="true" selection-start-line="208" selection-start-column="38" selection-end-line="208" selection-end-column="38" />
               <folding>
                 <element signature="e#7292#7867#0#HTML" />
               </folding>
@@ -32,10 +27,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaymentController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="97">
               <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
               <folding>
                 <element signature="e#40#69#0#PHP" expanded="true" />
@@ -109,7 +113,6 @@
         <option value="$PROJECT_DIR$/database/seeds/UserSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_25_083222_create_transactions_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_25_094435_create_logs_table.php" />
@@ -117,8 +120,9 @@
         <option value="$PROJECT_DIR$/app/Log.php" />
         <option value="$PROJECT_DIR$/app/Service/Log/StoreLog.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/split.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PaymentController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/split.blade.php" />
       </list>
     </option>
   </component>
@@ -277,7 +281,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="rave&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/app/Http/Controllers/raveController.php&#10;create_log&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/database/migrations/2019_05_25_094435_create_logs_table.php&#10;Log.php&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/app/Log.php&#10;Transact&#9;null&#9;null&#10;create_lo&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/database/migrations/2019_05_25_094435_create_logs_table.php&#10;Home&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/app/Http/Controllers/HomeController.php&#10;Paymen&#9;null&#9;null&#10;create_transac&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/database/migrations/2019_05_25_083222_create_transactions_table.php&#10;raveCon&#9;null&#9;null&#10;web&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/routes/web.php&#10;.env&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/.env&#10;database.php&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/config/database.php&#10;web.php&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/routes/web.php&#10;AppSer&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value=".env&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/.env&#10;rave&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/app/Http/Controllers/raveController.php&#10;create_log&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/database/migrations/2019_05_25_094435_create_logs_table.php&#10;Log.php&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/app/Log.php&#10;Transact&#9;null&#9;null&#10;create_lo&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/database/migrations/2019_05_25_094435_create_logs_table.php&#10;Home&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/app/Http/Controllers/HomeController.php&#10;Paymen&#9;null&#9;null&#10;create_transac&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/database/migrations/2019_05_25_083222_create_transactions_table.php&#10;raveCon&#9;null&#9;null&#10;web&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/routes/web.php&#10;database.php&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/config/database.php&#10;web.php&#9;FILE&#9;file:///Users/ridwan/Sites/flutterwave/routes/web.php&#10;AppSer&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -305,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558727684351</updated>
-      <workItem from="1558727685589" duration="14693000" />
+      <workItem from="1558727685589" duration="16202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14693000" />
+    <option name="totallyTimeSpent" value="16202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="852" extended-state="0" />
@@ -378,13 +382,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="25" column="20" selection-start-line="25" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -458,22 +455,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/split.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaymentController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="200" column="43" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="43" />
+        <state relative-caret-position="97">
+          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
           <folding>
-            <element signature="e#7292#7867#0#HTML" />
+            <element signature="e#40#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaymentController.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="193">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/split.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="208" column="38" lean-forward="true" selection-start-line="208" selection-start-column="38" selection-end-line="208" selection-end-column="38" />
           <folding>
-            <element signature="e#40#69#0#PHP" expanded="true" />
+            <element signature="e#7292#7867#0#HTML" />
           </folding>
         </state>
       </provider>

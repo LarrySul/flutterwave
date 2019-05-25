@@ -136,7 +136,7 @@
                 success: function (data) {
                     toastr.clear();
                     if (data.status === 'success') {
-                        payWithRave(email, amount, currency, public_key, transaction_reference)
+                        payWithRave(email, amount, currency, public_key, transaction_reference);
                     } else {
                         toastr.error(data);
                         $('#loading').css({
@@ -163,8 +163,8 @@
                 txref: transaction_reference,
                 subaccounts: [
                     {
-                        id: "RS_9921AD0BCF90F1BF99F101D71102B624",
-                        transaction_split_ratio: "8"
+                        id: '<?php echo getenv('SUB_ACCOUNT_ID') ?>',
+                        transaction_split_ratio: '<?php echo getenv('RATION') ?>'
                     }
                 ],
                 meta: [{
@@ -185,7 +185,6 @@
                     } else {
                         // handle failure redirection.
                     }
-
                     x.close(); // use this to close the modal immediately after payment.
                 }
             });
