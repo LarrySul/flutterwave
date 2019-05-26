@@ -34,10 +34,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/verify', 'raveController@index')->name('verify');
 
-Route::post('/split', 'raveController@initialize')->name('split');
-
-Route::post('/rave/callback', 'RaveController@callback')->name('callback');
-
 Route::post('/payment/process', 'PaymentController@pay');
 
 Route::POST('/payment/process/update/{transaction_reference}', 'PaymentController@updateTransaction');

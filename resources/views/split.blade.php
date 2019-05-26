@@ -99,7 +99,7 @@
                 var email = $('#email').val();
                 var amount = $('#amount').val();
                 var currency = $('#currency').val();
-                var public_key = '<?php echo getenv('FLUTTER_WAVE_API_KEY') ?>';
+                var public_key = 'FLWPUBK_TEST-c200a1483227650b86cfe7a8a265a130-X';
                 var name = $('#fullname').val();
                 var transaction_reference = 'rave-'+Date.now();
                 $('#loading').css({
@@ -202,7 +202,7 @@
                     toastr.clear();
                     if (data.status === 'success') {
                         toastr.success('Transaction was successfull');
-                        location.href = '/';
+                        location.href = '/home';
                     } else {
                         toastr.error(data.message);
                         $('#loading').css({

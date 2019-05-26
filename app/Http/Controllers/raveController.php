@@ -16,7 +16,7 @@ class raveController extends Controller
 
     public function index(Request $request){
         $user = new User;
-        $key = 'FLWSECK-ec8d64d741860e0f120dd8aad18b5835-X';
+        $key = 'FLWSECK-ef97e95ae83887c170b8f83e5a0334e8-X';
         $user->bvn = $request->bvn;
         $bvnUser = json_encode($user);
         $bvnNumber = explode(':',str_replace(['"','}'],'', $bvnUser))[1];
@@ -32,34 +32,4 @@ class raveController extends Controller
         return redirect('/status')->with('status', $head);
     }
 
-
-    public function initialize(){
-        Rave::initialize(route('callback'));
-    }
-
-    public function callback(Request $data) {
-        $data = Rave::verifyTransaction(request()->txref);
-
-        $chargeResponsecode = $data->data->chargecode;
-        $chargeAmount = $data->data->amount;
-        $chargeCurrency = $data->data->currency;
-        $customerEmail = $data->data->email;
-
-        // split parameters
-        $merchantID = 'RS_357C990D07DA12A79702798AD2C2FB1F';
-        $transaction_charge_type = 'percentage';
-        $transaction_charge = 0.5;    
-
-        if ($chargeResponsecode == "00" || $chargeResponsecode == "0") {
-            
-            
-            return redirect('/status')->with('status', 'Payment Successful');
-    
-        } else {
-            //Dont Give Value and return to Failure page
-        
-            return redirect('/failed')->with('status', 'Unable to Complete Payment');
-        }
-        
-    }
 }
